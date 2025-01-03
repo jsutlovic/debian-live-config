@@ -43,6 +43,10 @@ less
 dialog
 manpages
 manpages-dev
+zsh
+tmux
+ripgrep
+pv
 #Alt: shellcheck
 #Alt: asciinema
 #Alt: undistract-me
@@ -94,6 +98,7 @@ dos2unix
 #Section: Packaging
 build-essential
 debconf-utils
+fakeroot
 #Alt: checkinstall
 #Alt: fakeroot
 #Alt: lintian
@@ -168,6 +173,7 @@ live-build
 #Alt: yarnpkg
 
 #Section: Databases
+sqlite3
 #Alt: sqlite3
 #Alt: sqlfluff
 

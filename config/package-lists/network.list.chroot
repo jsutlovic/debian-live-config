@@ -45,15 +45,15 @@ webext-keepassxc-browser
 
 #Section: VoIP/videoconference
 #Description: mumble
-mumble
+#mumble
 #Alt: jami
 #Alt: linphone
 
 
 #Section: Mail clients
 #Description: thunderbird
-thunderbird
-thunderbird-l10n-fr
+#thunderbird
+#thunderbird-l10n-fr
 #Alt: geary
 #Alt: claws-mail
 #Alt: claws-mail-plugins
@@ -92,8 +92,8 @@ rsync
 
 #Section: Bittorrent
 #Description: transmission-gtk
-transmission-gtk
-transmission-cli
+#transmission-gtk
+#transmission-cli
 #Alt: qbittorrent
 #Alt: deluge-gtk
 #Alt: deluge-console
@@ -120,6 +120,7 @@ yt-dlp
 #Description: kiwix
 curl
 wget
+httpie
 #Alt: kiwix
 #Alt: kiwix-tools
 #Alt: aria2
@@ -364,5 +365,7 @@ openssh-client
 #Alt: geoip-database
 
 #Section: Out-of-band management
+ipmitool
+gwakeonlan
 #Alt: ipmitool
 #Alt: gwakeonlan

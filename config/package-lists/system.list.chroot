@@ -187,6 +187,7 @@ virt-p2v
 libguestfs-rsync
 libguestfs-rescue
 netcat-openbsd
+qemu-guest-agent
 #Alt: virt-p2v
 #Alt: virt-what
 #Alt: libguestfs-tools
@@ -312,12 +313,13 @@ libpam-systemd
 firmware-linux-free
 firmware-realtek
 firmware-atheros
-firmware-b43-installer
-firmware-brcm80211
 firmware-ipw2x00
 firmware-iwlwifi
 amd64-microcode
 intel-microcode
+firmware-linux-nonfree
+firmware-misc-nonfree
+firmware-amd-graphics
 #Alt: firmware-linux-nonfree
 #Alt: firmware-misc-nonfree
 #Alt: firmware-amd-graphics

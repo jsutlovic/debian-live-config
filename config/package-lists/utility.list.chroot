@@ -137,7 +137,8 @@ libblockdev-crypto2
 #Description: nano
 mousepad
 nano
-vim-tiny
+#vim-tiny
+vim-nox
 #Alt: gnome-builder flatpak-builder python3-lxml python3-jedi
 #Alt: vim
 #Alt: vim-doc
@@ -275,15 +276,15 @@ gnome-font-viewer
 #Section: Spell checking/dictionaries
 hunspell
 hunspell-en-us
-hunspell-fr
+#hunspell-fr
 aspell
-aspell-fr
-hunspell-fr
+#aspell-fr
+#hunspell-fr
 ispell
 iamerican
 ibritish
-ifrench-gut
-wfrench
+#ifrench-gut
+#wfrench
 #Alt: xfce4-dict
 #Alt: gnome-dictionary
 #Alt: goldendict

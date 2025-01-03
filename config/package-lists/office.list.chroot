@@ -2,18 +2,18 @@
 
 #Section: Office suite
 #Description: libreoffice
-libreoffice-writer
-libreoffice-impress
-libreoffice-draw
-libreoffice-calc
-libreoffice-gtk3
-libreoffice-java-common
-libreoffice-gnome
-libwmf-bin
-hyphen-fr
-libreoffice-l10n-fr
-mythes-fr
-libreoffice-help-fr
+#libreoffice-writer
+#libreoffice-impress
+#libreoffice-draw
+#libreoffice-calc
+#libreoffice-gtk3
+#libreoffice-java-common
+#libreoffice-gnome
+#libwmf-bin
+#hyphen-fr
+#libreoffice-l10n-fr
+#mythes-fr
+#libreoffice-help-fr
 #Alt: libreoffice-base
 #Alt: abiword
 #Alt: calligraplan
@@ -134,9 +134,9 @@ poppler-utils
 
 #Section: Image scanning
 #Description: simple-scan
-simple-scan
+#simple-scan
 imagemagick
-sane-utils
+#sane-utils
 #Alt: scanbd
 #Alt: xsane
 
@@ -151,16 +151,16 @@ sane-utils
 
 #Section: Printing
 #Description: system-config-printer
-cups
-cups-client
-gutenprint-locales
-cups-pk-helper
-printer-driver-all
-printer-driver-cups-pdf
-printer-driver-gutenprint
-system-config-printer
-system-config-printer-udev
-cups-browsed
+#cups
+#cups-client
+#gutenprint-locales
+#cups-pk-helper
+#printer-driver-all
+#printer-driver-cups-pdf
+#printer-driver-gutenprint
+#system-config-printer
+#system-config-printer-udev
+#cups-browsed
 #Alt: hplip-gui
 #Alt: colord
 #mtink # sid only
