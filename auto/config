@@ -15,10 +15,9 @@ lb config noauto \
 --binary-images iso-hybrid \
 --checksums sha256 \
 --clean \
+--color \
 --debconf-frontend noninteractive \
---debian-installer live \
---debian-installer-distribution bookworm \
---debian-installer-gui true \
+--debian-installer none \
 --debootstrap-options "--include=apt-transport-https,ca-certificates,openssl" \
 --distribution bookworm \
 --firmware-binary true \
@@ -26,9 +25,10 @@ lb config noauto \
 --initramfs live-boot \
 --iso-publisher debian-live-config \
 --iso-volume debian-live-config-4.2.0 \
+--image-name debian-live-confiso \
 --linux-packages "linux-image linux-headers" \
 --bootappend-live "boot=live config splash" \
 --memtest memtest86+ \
---win32-loader true
+--win32-loader false
 
 "${@}"
