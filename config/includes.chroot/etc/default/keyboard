@@ -3,8 +3,8 @@
 # Consult the keyboard(5) manual page.
 
 XKBMODEL="pc104"
-XKBLAYOUT="fr"
-XKBVARIANT="oss"
-XKBOPTIONS=""
+XKBLAYOUT="en"
+XKBVARIANT=""
+XKBOPTIONS="ctrl:nocaps"
 
 BACKSPACE="guess"
