@@ -43,10 +43,6 @@ less
 dialog
 manpages
 manpages-dev
-zsh
-tmux
-ripgrep
-pv
 #Alt: shellcheck
 #Alt: asciinema
 #Alt: undistract-me
