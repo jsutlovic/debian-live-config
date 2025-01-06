@@ -28,7 +28,8 @@ lb config noauto \
 --iso-volume debian-live-config-4.2.0 \
 --image-name debian-live-confiso \
 --linux-packages "linux-image linux-headers" \
---bootappend-live "boot=live config noeject timezone=America/Toronto splash" \
+--bootappend-live "boot=live config nopersistence noeject timezone=America/Toronto splash" \
+--uefi-secure-boot enable \
 --memtest memtest86+ \
 --win32-loader false
 
