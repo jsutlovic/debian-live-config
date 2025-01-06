@@ -85,7 +85,7 @@ debug_imagesize:
 	sudo duc index /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
 	sudo duc index /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
 	#duc gui /mnt/debian-live-config-squashfs -d debian-live-config-squashfs.duc-index
-	duc gui /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
+	duc ui /mnt/debian-live-config-iso -d debian-live-config-iso.duc-index
 
 # requirements: iso image must be downloaded from the build machine beforehand
 # rsync -avzP $BUILD_HOST:/var/debian-live-config/iso ./
